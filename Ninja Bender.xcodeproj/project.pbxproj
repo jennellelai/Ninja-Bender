@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A421AF141DA18BC400196CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF131DA18BC400196CCC /* AppDelegate.swift */; };
+		A421AF161DA18BC400196CCC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A421AF151DA18BC400196CCC /* GameScene.sks */; };
+		A421AF181DA18BC400196CCC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A421AF171DA18BC400196CCC /* Actions.sks */; };
+		A421AF1A1DA18BC400196CCC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF191DA18BC400196CCC /* GameScene.swift */; };
+		A421AF1C1DA18BC400196CCC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF1B1DA18BC400196CCC /* GameViewController.swift */; };
+		A421AF1F1DA18BC400196CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A421AF1D1DA18BC400196CCC /* Main.storyboard */; };
+		A421AF211DA18BC400196CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A421AF201DA18BC400196CCC /* Assets.xcassets */; };
+		A421AF241DA18BC400196CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A421AF221DA18BC400196CCC /* LaunchScreen.storyboard */; };
+		A421AF2F1DA18BC500196CCC /* Ninja_BenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF2E1DA18BC500196CCC /* Ninja_BenderTests.swift */; };
+		A421AF3A1DA18BC500196CCC /* Ninja_BenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF391DA18BC500196CCC /* Ninja_BenderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A421AF2B1DA18BC500196CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A421AF081DA18BC400196CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A421AF0F1DA18BC400196CCC;
+			remoteInfo = "Ninja Bender";
+		};
+		A421AF361DA18BC500196CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A421AF081DA18BC400196CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A421AF0F1DA18BC400196CCC;
+			remoteInfo = "Ninja Bender";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A421AF101DA18BC400196CCC /* Ninja Bender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Bender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421AF131DA18BC400196CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A421AF151DA18BC400196CCC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A421AF171DA18BC400196CCC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A421AF191DA18BC400196CCC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A421AF1B1DA18BC400196CCC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A421AF1E1DA18BC400196CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A421AF201DA18BC400196CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A421AF231DA18BC400196CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A421AF251DA18BC400196CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A421AF2A1DA18BC500196CCC /* Ninja BenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja BenderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421AF2E1DA18BC500196CCC /* Ninja_BenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_BenderTests.swift; sourceTree = "<group>"; };
+		A421AF301DA18BC500196CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A421AF351DA18BC500196CCC /* Ninja BenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja BenderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A421AF391DA18BC500196CCC /* Ninja_BenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_BenderUITests.swift; sourceTree = "<group>"; };
+		A421AF3B1DA18BC500196CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A421AF0D1DA18BC400196CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF271DA18BC500196CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF321DA18BC500196CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A421AF071DA18BC400196CCC = {
+			isa = PBXGroup;
+			children = (
+				A421AF121DA18BC400196CCC /* Ninja Bender */,
+				A421AF2D1DA18BC500196CCC /* Ninja BenderTests */,
+				A421AF381DA18BC500196CCC /* Ninja BenderUITests */,
+				A421AF111DA18BC400196CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A421AF111DA18BC400196CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF101DA18BC400196CCC /* Ninja Bender.app */,
+				A421AF2A1DA18BC500196CCC /* Ninja BenderTests.xctest */,
+				A421AF351DA18BC500196CCC /* Ninja BenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A421AF121DA18BC400196CCC /* Ninja Bender */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF131DA18BC400196CCC /* AppDelegate.swift */,
+				A421AF151DA18BC400196CCC /* GameScene.sks */,
+				A421AF171DA18BC400196CCC /* Actions.sks */,
+				A421AF191DA18BC400196CCC /* GameScene.swift */,
+				A421AF1B1DA18BC400196CCC /* GameViewController.swift */,
+				A421AF1D1DA18BC400196CCC /* Main.storyboard */,
+				A421AF201DA18BC400196CCC /* Assets.xcassets */,
+				A421AF221DA18BC400196CCC /* LaunchScreen.storyboard */,
+				A421AF251DA18BC400196CCC /* Info.plist */,
+			);
+			path = "Ninja Bender";
+			sourceTree = "<group>";
+		};
+		A421AF2D1DA18BC500196CCC /* Ninja BenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF2E1DA18BC500196CCC /* Ninja_BenderTests.swift */,
+				A421AF301DA18BC500196CCC /* Info.plist */,
+			);
+			path = "Ninja BenderTests";
+			sourceTree = "<group>";
+		};
+		A421AF381DA18BC500196CCC /* Ninja BenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF391DA18BC500196CCC /* Ninja_BenderUITests.swift */,
+				A421AF3B1DA18BC500196CCC /* Info.plist */,
+			);
+			path = "Ninja BenderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A421AF0F1DA18BC400196CCC /* Ninja Bender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A421AF3E1DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja Bender" */;
+			buildPhases = (
+				A421AF0C1DA18BC400196CCC /* Sources */,
+				A421AF0D1DA18BC400196CCC /* Frameworks */,
+				A421AF0E1DA18BC400196CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ninja Bender";
+			productName = "Ninja Bender";
+			productReference = A421AF101DA18BC400196CCC /* Ninja Bender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A421AF291DA18BC500196CCC /* Ninja BenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A421AF411DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderTests" */;
+			buildPhases = (
+				A421AF261DA18BC500196CCC /* Sources */,
+				A421AF271DA18BC500196CCC /* Frameworks */,
+				A421AF281DA18BC500196CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A421AF2C1DA18BC500196CCC /* PBXTargetDependency */,
+			);
+			name = "Ninja BenderTests";
+			productName = "Ninja BenderTests";
+			productReference = A421AF2A1DA18BC500196CCC /* Ninja BenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A421AF341DA18BC500196CCC /* Ninja BenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A421AF441DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderUITests" */;
+			buildPhases = (
+				A421AF311DA18BC500196CCC /* Sources */,
+				A421AF321DA18BC500196CCC /* Frameworks */,
+				A421AF331DA18BC500196CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A421AF371DA18BC500196CCC /* PBXTargetDependency */,
+			);
+			name = "Ninja BenderUITests";
+			productName = "Ninja BenderUITests";
+			productReference = A421AF351DA18BC500196CCC /* Ninja BenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A421AF081DA18BC400196CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JenL;
+				TargetAttributes = {
+					A421AF0F1DA18BC400196CCC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A421AF291DA18BC500196CCC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A421AF0F1DA18BC400196CCC;
+					};
+					A421AF341DA18BC500196CCC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A421AF0F1DA18BC400196CCC;
+					};
+				};
+			};
+			buildConfigurationList = A421AF0B1DA18BC400196CCC /* Build configuration list for PBXProject "Ninja Bender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A421AF071DA18BC400196CCC;
+			productRefGroup = A421AF111DA18BC400196CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A421AF0F1DA18BC400196CCC /* Ninja Bender */,
+				A421AF291DA18BC500196CCC /* Ninja BenderTests */,
+				A421AF341DA18BC500196CCC /* Ninja BenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A421AF0E1DA18BC400196CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421AF1F1DA18BC400196CCC /* Main.storyboard in Resources */,
+				A421AF161DA18BC400196CCC /* GameScene.sks in Resources */,
+				A421AF211DA18BC400196CCC /* Assets.xcassets in Resources */,
+				A421AF241DA18BC400196CCC /* LaunchScreen.storyboard in Resources */,
+				A421AF181DA18BC400196CCC /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF281DA18BC500196CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF331DA18BC500196CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A421AF0C1DA18BC400196CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421AF1A1DA18BC400196CCC /* GameScene.swift in Sources */,
+				A421AF1C1DA18BC400196CCC /* GameViewController.swift in Sources */,
+				A421AF141DA18BC400196CCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF261DA18BC500196CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421AF2F1DA18BC500196CCC /* Ninja_BenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A421AF311DA18BC500196CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A421AF3A1DA18BC500196CCC /* Ninja_BenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A421AF2C1DA18BC500196CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A421AF0F1DA18BC400196CCC /* Ninja Bender */;
+			targetProxy = A421AF2B1DA18BC500196CCC /* PBXContainerItemProxy */;
+		};
+		A421AF371DA18BC500196CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A421AF0F1DA18BC400196CCC /* Ninja Bender */;
+			targetProxy = A421AF361DA18BC500196CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A421AF1D1DA18BC400196CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A421AF1E1DA18BC400196CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A421AF221DA18BC400196CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A421AF231DA18BC400196CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A421AF3C1DA18BC500196CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A421AF3D1DA18BC500196CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A421AF3F1DA18BC500196CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ninja Bender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-Bender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A421AF401DA18BC500196CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ninja Bender/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-Bender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A421AF421DA18BC500196CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ninja BenderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-BenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Bender.app/Ninja Bender";
+			};
+			name = Debug;
+		};
+		A421AF431DA18BC500196CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ninja BenderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-BenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Bender.app/Ninja Bender";
+			};
+			name = Release;
+		};
+		A421AF451DA18BC500196CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ninja BenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-BenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ninja Bender";
+			};
+			name = Debug;
+		};
+		A421AF461DA18BC500196CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Ninja BenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-BenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Ninja Bender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A421AF0B1DA18BC400196CCC /* Build configuration list for PBXProject "Ninja Bender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A421AF3C1DA18BC500196CCC /* Debug */,
+				A421AF3D1DA18BC500196CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A421AF3E1DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja Bender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A421AF3F1DA18BC500196CCC /* Debug */,
+				A421AF401DA18BC500196CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A421AF411DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A421AF421DA18BC500196CCC /* Debug */,
+				A421AF431DA18BC500196CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A421AF441DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A421AF451DA18BC500196CCC /* Debug */,
+				A421AF461DA18BC500196CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A421AF081DA18BC400196CCC /* Project object */;
+}
