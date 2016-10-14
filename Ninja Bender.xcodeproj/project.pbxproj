@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B40ED431DA1A30800AAD729 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B40ED421DA1A30800AAD729 /* song.mp3 */; };
+		3B40ED451DA1A39300AAD729 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40ED441DA1A39300AAD729 /* SettingsViewController.swift */; };
+		3B40ED471DA1B42100AAD729 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40ED461DA1B42100AAD729 /* HowToViewController.swift */; };
+		3B40ED4F1DA1C47F00AAD729 /* PageOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40ED4E1DA1C47F00AAD729 /* PageOneViewController.swift */; };
+		3B40ED511DA1C4BD00AAD729 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B40ED501DA1C4BD00AAD729 /* PageTwoViewController.swift */; };
 		A421AF141DA18BC400196CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF131DA18BC400196CCC /* AppDelegate.swift */; };
-		A421AF161DA18BC400196CCC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A421AF151DA18BC400196CCC /* GameScene.sks */; };
 		A421AF181DA18BC400196CCC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A421AF171DA18BC400196CCC /* Actions.sks */; };
 		A421AF1A1DA18BC400196CCC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF191DA18BC400196CCC /* GameScene.swift */; };
 		A421AF1C1DA18BC400196CCC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF1B1DA18BC400196CCC /* GameViewController.swift */; };
@@ -17,6 +21,20 @@
 		A421AF241DA18BC400196CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A421AF221DA18BC400196CCC /* LaunchScreen.storyboard */; };
 		A421AF2F1DA18BC500196CCC /* Ninja_BenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF2E1DA18BC500196CCC /* Ninja_BenderTests.swift */; };
 		A421AF3A1DA18BC500196CCC /* Ninja_BenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF391DA18BC500196CCC /* Ninja_BenderUITests.swift */; };
+		A421AF481DA18EAA00196CCC /* JLPointsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF471DA18EAA00196CCC /* JLPointsLabel.swift */; };
+		A421AF4A1DA18EE400196CCC /* JLCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF491DA18EE400196CCC /* JLCloudGenerator.swift */; };
+		A421AF4C1DA18EED00196CCC /* JLCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF4B1DA18EED00196CCC /* JLCloud.swift */; };
+		A421AF4F1DA18F3800196CCC /* JLHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF4E1DA18F3800196CCC /* JLHero.swift */; };
+		A421AF511DA18F4F00196CCC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF501DA18F4F00196CCC /* Constants.swift */; };
+		A421AF531DA18F6900196CCC /* JLMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF521DA18F6900196CCC /* JLMovingGround.swift */; };
+		A421AF551DA18F8C00196CCC /* JLWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF541DA18F8C00196CCC /* JLWallGenerator.swift */; };
+		A421AF571DA18F9100196CCC /* JLWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A421AF561DA18F9100196CCC /* JLWall.swift */; };
+		A421AF5A1DA1919000196CCC /* sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A421AF591DA1919000196CCC /* sun.jpg */; };
+		A46433191DAABC3600E9EED3 /* JLCreatureGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46433181DAABC3600E9EED3 /* JLCreatureGenerator.swift */; };
+		A464331B1DAABC3F00E9EED3 /* JLCreature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464331A1DAABC3F00E9EED3 /* JLCreature.swift */; };
+		A464331E1DAAC0AC00E9EED3 /* JLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A464331D1DAAC0AC00E9EED3 /* JLElement.swift */; };
+		A46433231DAB099800E9EED3 /* JLElementGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46433221DAB099800E9EED3 /* JLElementGenerator.swift */; };
+		A4BD73E91DA1A1B9009A9EC8 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BD73E81DA1A1B9009A9EC8 /* FrontViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B40ED421DA1A30800AAD729 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		3B40ED441DA1A39300AAD729 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3B40ED461DA1B42100AAD729 /* HowToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
+		3B40ED4E1DA1C47F00AAD729 /* PageOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageOneViewController.swift; sourceTree = "<group>"; };
+		3B40ED501DA1C4BD00AAD729 /* PageTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
 		A421AF101DA18BC400196CCC /* Ninja Bender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Bender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A421AF131DA18BC400196CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A421AF151DA18BC400196CCC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A421AF171DA18BC400196CCC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A421AF191DA18BC400196CCC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A421AF1B1DA18BC400196CCC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +75,20 @@
 		A421AF351DA18BC500196CCC /* Ninja BenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja BenderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A421AF391DA18BC500196CCC /* Ninja_BenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_BenderUITests.swift; sourceTree = "<group>"; };
 		A421AF3B1DA18BC500196CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A421AF471DA18EAA00196CCC /* JLPointsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLPointsLabel.swift; sourceTree = "<group>"; };
+		A421AF491DA18EE400196CCC /* JLCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLCloudGenerator.swift; sourceTree = "<group>"; };
+		A421AF4B1DA18EED00196CCC /* JLCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLCloud.swift; sourceTree = "<group>"; };
+		A421AF4E1DA18F3800196CCC /* JLHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHero.swift; sourceTree = "<group>"; };
+		A421AF501DA18F4F00196CCC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A421AF521DA18F6900196CCC /* JLMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLMovingGround.swift; sourceTree = "<group>"; };
+		A421AF541DA18F8C00196CCC /* JLWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLWallGenerator.swift; sourceTree = "<group>"; };
+		A421AF561DA18F9100196CCC /* JLWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLWall.swift; sourceTree = "<group>"; };
+		A421AF591DA1919000196CCC /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
+		A46433181DAABC3600E9EED3 /* JLCreatureGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLCreatureGenerator.swift; sourceTree = "<group>"; };
+		A464331A1DAABC3F00E9EED3 /* JLCreature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLCreature.swift; sourceTree = "<group>"; };
+		A464331D1DAAC0AC00E9EED3 /* JLElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLElement.swift; sourceTree = "<group>"; };
+		A46433221DAB099800E9EED3 /* JLElementGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLElementGenerator.swift; sourceTree = "<group>"; };
+		A4BD73E81DA1A1B9009A9EC8 /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +140,26 @@
 			isa = PBXGroup;
 			children = (
 				A421AF131DA18BC400196CCC /* AppDelegate.swift */,
-				A421AF151DA18BC400196CCC /* GameScene.sks */,
 				A421AF171DA18BC400196CCC /* Actions.sks */,
 				A421AF191DA18BC400196CCC /* GameScene.swift */,
+				A421AF501DA18F4F00196CCC /* Constants.swift */,
+				A421AF471DA18EAA00196CCC /* JLPointsLabel.swift */,
+				A421AF4E1DA18F3800196CCC /* JLHero.swift */,
+				A421AF521DA18F6900196CCC /* JLMovingGround.swift */,
+				A421AF4D1DA18EF100196CCC /* Cloud Generation */,
+				A421AF581DA18F9400196CCC /* Wall Generation */,
+				A464331C1DAABC4600E9EED3 /* Creature Generation */,
+				A46433241DAB09A600E9EED3 /* Element Generation */,
 				A421AF1B1DA18BC400196CCC /* GameViewController.swift */,
 				A421AF1D1DA18BC400196CCC /* Main.storyboard */,
+				3B40ED461DA1B42100AAD729 /* HowToViewController.swift */,
+				3B40ED4E1DA1C47F00AAD729 /* PageOneViewController.swift */,
+				3B40ED501DA1C4BD00AAD729 /* PageTwoViewController.swift */,
+				3B40ED441DA1A39300AAD729 /* SettingsViewController.swift */,
+				A4BD73E81DA1A1B9009A9EC8 /* FrontViewController.swift */,
 				A421AF201DA18BC400196CCC /* Assets.xcassets */,
 				A421AF221DA18BC400196CCC /* LaunchScreen.storyboard */,
-				A421AF251DA18BC400196CCC /* Info.plist */,
+				A421AF5B1DA1919700196CCC /* Supporting Files */,
 			);
 			path = "Ninja Bender";
 			sourceTree = "<group>";
@@ -132,6 +180,52 @@
 				A421AF3B1DA18BC500196CCC /* Info.plist */,
 			);
 			path = "Ninja BenderUITests";
+			sourceTree = "<group>";
+		};
+		A421AF4D1DA18EF100196CCC /* Cloud Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF491DA18EE400196CCC /* JLCloudGenerator.swift */,
+				A421AF4B1DA18EED00196CCC /* JLCloud.swift */,
+			);
+			name = "Cloud Generation";
+			sourceTree = "<group>";
+		};
+		A421AF581DA18F9400196CCC /* Wall Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A421AF541DA18F8C00196CCC /* JLWallGenerator.swift */,
+				A421AF561DA18F9100196CCC /* JLWall.swift */,
+			);
+			name = "Wall Generation";
+			sourceTree = "<group>";
+		};
+		A421AF5B1DA1919700196CCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B40ED421DA1A30800AAD729 /* song.mp3 */,
+				A421AF591DA1919000196CCC /* sun.jpg */,
+				A421AF251DA18BC400196CCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A464331C1DAABC4600E9EED3 /* Creature Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A46433181DAABC3600E9EED3 /* JLCreatureGenerator.swift */,
+				A464331A1DAABC3F00E9EED3 /* JLCreature.swift */,
+			);
+			name = "Creature Generation";
+			sourceTree = "<group>";
+		};
+		A46433241DAB09A600E9EED3 /* Element Generation */ = {
+			isa = PBXGroup;
+			children = (
+				A46433221DAB099800E9EED3 /* JLElementGenerator.swift */,
+				A464331D1DAAC0AC00E9EED3 /* JLElement.swift */,
+			);
+			name = "Element Generation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A421AF5A1DA1919000196CCC /* sun.jpg in Resources */,
 				A421AF1F1DA18BC400196CCC /* Main.storyboard in Resources */,
-				A421AF161DA18BC400196CCC /* GameScene.sks in Resources */,
 				A421AF211DA18BC400196CCC /* Assets.xcassets in Resources */,
 				A421AF241DA18BC400196CCC /* LaunchScreen.storyboard in Resources */,
 				A421AF181DA18BC400196CCC /* Actions.sks in Resources */,
+				3B40ED431DA1A30800AAD729 /* song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +365,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A464331E1DAAC0AC00E9EED3 /* JLElement.swift in Sources */,
+				3B40ED4F1DA1C47F00AAD729 /* PageOneViewController.swift in Sources */,
+				A4BD73E91DA1A1B9009A9EC8 /* FrontViewController.swift in Sources */,
 				A421AF1A1DA18BC400196CCC /* GameScene.swift in Sources */,
+				A421AF481DA18EAA00196CCC /* JLPointsLabel.swift in Sources */,
+				A421AF4A1DA18EE400196CCC /* JLCloudGenerator.swift in Sources */,
 				A421AF1C1DA18BC400196CCC /* GameViewController.swift in Sources */,
 				A421AF141DA18BC400196CCC /* AppDelegate.swift in Sources */,
+				A421AF571DA18F9100196CCC /* JLWall.swift in Sources */,
+				A421AF551DA18F8C00196CCC /* JLWallGenerator.swift in Sources */,
+				A46433231DAB099800E9EED3 /* JLElementGenerator.swift in Sources */,
+				A46433191DAABC3600E9EED3 /* JLCreatureGenerator.swift in Sources */,
+				A421AF4C1DA18EED00196CCC /* JLCloud.swift in Sources */,
+				A421AF4F1DA18F3800196CCC /* JLHero.swift in Sources */,
+				3B40ED451DA1A39300AAD729 /* SettingsViewController.swift in Sources */,
+				3B40ED511DA1C4BD00AAD729 /* PageTwoViewController.swift in Sources */,
+				A421AF531DA18F6900196CCC /* JLMovingGround.swift in Sources */,
+				3B40ED471DA1B42100AAD729 /* HowToViewController.swift in Sources */,
+				A464331B1DAABC3F00E9EED3 /* JLCreature.swift in Sources */,
+				A421AF511DA18F4F00196CCC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Ninja Bender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-Bender";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenLandJenn.Ninja-Bender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -436,7 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Ninja Bender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.JenL.Ninja-Bender";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JenLandJenn.Ninja-Bender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -515,6 +627,7 @@
 				A421AF401DA18BC500196CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A421AF411DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +636,7 @@
 				A421AF431DA18BC500196CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A421AF441DA18BC500196CCC /* Build configuration list for PBXNativeTarget "Ninja BenderUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +645,7 @@
 				A421AF461DA18BC500196CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
